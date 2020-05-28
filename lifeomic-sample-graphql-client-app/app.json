@@ -1,0 +1,17 @@
+{
+  "name": "lifeomic-sample-graphql-client-app",
+  "displayName": "lifeomic-sample-graphql-client-app",
+  "expo": {
+    "name": "lifeomic-sample-graphql-client-app",
+    "slug": "expo-template-bare",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
