@@ -24,7 +24,7 @@ In these cases, a valid token must be present in the header in the form of `Bear
 
 To get a token to test the APIs with, the CLI can be used: `lo auth -c`. The `-c` parameter copies the token to the clipboard.
 
-The api url is: `https://api.us.lifeomic.com`
+The API URL is: `https://api.us.lifeomic.com`
 
 ## GraphQL API
 
@@ -32,15 +32,15 @@ The URL for the GraphQL endpoint is located at `{baseUrl}/v1/graphql`
 
 The schema can be downloaded using the [Apollo CLI](https://github.com/apollographql/apollo-cli), provided an authorization header is supplied. 
 
-(Optional) For types, we utilize Apollog Codegen: Once the Apollo CLI is installed (either globally or localling in the project), `apollo codegen:generate --clientSchema={path/to/schema}`.
+(Optional) For types, we utilize Apollo Codegen: Once the Apollo CLI is installed (either globally or localling in the project), `apollo codegen:generate --clientSchema={path/to/schema}`.
 
 ## Bitesize Examples
 
-The `bitesize` directory contains standalone examples of various means of using the GraphQL api.
+The `bitesize` directory contains standalone examples of various means of using the GraphQL API.
 
 **observations.ts**
 
-Included is a sample for handlig `Observation`s, a type that encompases various readings for a patient, such as body wieght or height.
+Included is a sample for handling `Observation`s, a type that encompasses various readings for a patient, such as body weight or height.
 
 ## lifeomic-sample-graphql-client-app
 
